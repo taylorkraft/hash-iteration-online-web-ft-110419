@@ -6,6 +6,7 @@
 
 def happy_birthday(birthday_kids)
   birthday_kids.each {|name, age|
+  if age == 12 || age < 12
   puts "Happy Birthday #{name}! You are #{age} years old!"
   }
 end
